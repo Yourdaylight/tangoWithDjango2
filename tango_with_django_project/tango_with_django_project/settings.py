@@ -26,7 +26,7 @@ SECRET_KEY = 't&+$sf=8y&-lt_%f^)*20jarrbf-2$+siw1_+#fh$i89_a5^n_'
 DEBUG = True
 
 # whistlist: only allowed hosts can access. if ALL_HOSTS is empty, all hosts are allowed.
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
