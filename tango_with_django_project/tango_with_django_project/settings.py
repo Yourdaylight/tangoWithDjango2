@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rango',  # This is the app we created for the Rango project
 ]
 
 MIDDLEWARE = [
@@ -74,6 +75,7 @@ WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+
 
 DATABASES = {
     'default': {
